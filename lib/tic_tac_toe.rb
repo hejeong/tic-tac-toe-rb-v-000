@@ -82,8 +82,6 @@ end
 # board = ["O", " ", "X", "O", "O", "X", "O", "X" , "X" ]
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
-    # combo = [3, 4, 5]
-    
     first_index = combo[0]     #first_index = 3 
     second_index = combo[1]    #second_index = 4
     third_index = combo[2]     #third_index = 5
