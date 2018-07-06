@@ -88,8 +88,9 @@ def won?(board)
     third_index = combo[2]     #third_index = 5
     
     if board[first_index] == "X" && board[second_index] == "X" && board[third_index] == "X"
-      return 
-    
+      return true
+    elsif 
+    end
   end
 end
 
