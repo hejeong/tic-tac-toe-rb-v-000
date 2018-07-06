@@ -79,7 +79,6 @@ def current_player(board)
   end
 end
 
-# board = ["O", " ", "X", "O", "O", "X", "O", "X" , "X" ]
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
     first_index = combo[0]     #first_index = 3 
