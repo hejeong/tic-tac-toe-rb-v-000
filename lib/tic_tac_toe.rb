@@ -79,6 +79,7 @@ def current_player(board)
   end
 end
 
+# board = ["O", " ", "X", "O", "O", "X", "O", "X" , "X" ]
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
     # combo = [3, 4, 5]
@@ -86,6 +87,7 @@ def won?(board)
     second_index = combo[1]    #second_index = 4
     third_index = combo[2]     #third_index = 5
     
+    board[1] == "X"
     
   end
 end
