@@ -81,10 +81,11 @@ end
 
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
-    # combo = [0,1,2]
-    # <code>
+    # combo = [0, 1, 2]
+    first_index = combo[0]
+    second_index = combo[1]
+    third_index = combo[2]
     
-    #combo = [3, 4, 5]
   end
 end
 
