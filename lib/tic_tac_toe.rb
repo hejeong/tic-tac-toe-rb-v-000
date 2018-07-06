@@ -87,7 +87,7 @@ def won?(board)
     second_index = combo[1]    #second_index = 4
     third_index = combo[2]     #third_index = 5
     
-    board[1] == "X"
+    
     
   end
 end
