@@ -120,7 +120,7 @@ def over?(board)
 end
 
 def winner(board)
-  win_array = won?(board) # [3,4,5]
+  win_array = won?(board)
   
   if win_array[0] == "X"
     return "X"
