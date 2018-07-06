@@ -91,6 +91,8 @@ def won?(board)
       return true
     elsif board[first_index] == "O" && board[second_index] == "O" && board[third_index] == "O"
       return true
+    else 
+      return nil
     end
   end
 end
