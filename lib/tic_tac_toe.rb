@@ -82,21 +82,7 @@ end
 def won?(board)
   WIN_COMBINATIONS.detect do |combo|
     # combo = [0,1,2]
-    first_index = combo[0]
-    second_index = combo[1]
-    third_index = combo[2]
-    
-    first_position = board[first_index]
-    second_position = board[second_index]
-    third_position = board[third_index]
-    
-    if first_position == "X" && second_position == "X" && third_position == "X"
-      true
-    elsif first_position == "O" && second_position == "O" && third_position == "O"
-      true
-    else 
-      false
-    end
+    # <code>
   end
 end
 
