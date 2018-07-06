@@ -86,11 +86,11 @@ def won?(board)
     third_index = combo[2]     #third_index = 5
     
     if board[first_index] == "X" && board[second_index] == "X" && board[third_index] == "X"
-      return true
+      true
     elsif board[first_index] == "O" && board[second_index] == "O" && board[third_index] == "O"
-      return true
+      true
     else 
-      return false
+      false
     end
   end
   
