@@ -121,6 +121,7 @@ end
 
 def winner(board)
   win_array = won?(board) # [3,4,5]
+  win_array[0]
 end
 
 def play(board)
