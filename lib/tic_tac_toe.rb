@@ -83,6 +83,8 @@ def won?(board)
   WIN_COMBINATIONS.detect do |combo|
     # combo = [0,1,2]
     # <code>
+    
+    #combo = [3, 4, 5]
   end
 end
 
